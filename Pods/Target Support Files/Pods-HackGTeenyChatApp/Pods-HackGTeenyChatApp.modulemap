@@ -1,0 +1,6 @@
+framework module Pods_HackGTeenyChatApp {
+  umbrella header "Pods-HackGTeenyChatApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
