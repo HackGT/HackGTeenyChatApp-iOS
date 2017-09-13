@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF13EACB1F6976AF00943895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13EACA1F6976AF00943895 /* AppDelegate.swift */; };
+		DF13EACD1F6976AF00943895 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13EACC1F6976AF00943895 /* ChatViewController.swift */; };
+		DF13EAD01F6976AF00943895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF13EACE1F6976AF00943895 /* Main.storyboard */; };
+		DF13EAD21F6976AF00943895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF13EAD11F6976AF00943895 /* Assets.xcassets */; };
+		DF13EAD51F6976AF00943895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF13EAD31F6976AF00943895 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF13EAC71F6976AF00943895 /* HackGTeenyChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackGTeenyChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF13EACA1F6976AF00943895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF13EACC1F6976AF00943895 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DF13EACF1F6976AF00943895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF13EAD11F6976AF00943895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF13EAD41F6976AF00943895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF13EAD61F6976AF00943895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF13EAC41F6976AF00943895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF13EABE1F6976AE00943895 = {
+			isa = PBXGroup;
+			children = (
+				DF13EAC91F6976AF00943895 /* HackGTeenyChatApp */,
+				DF13EAC81F6976AF00943895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF13EAC81F6976AF00943895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF13EAC71F6976AF00943895 /* HackGTeenyChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF13EAC91F6976AF00943895 /* HackGTeenyChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF13EACA1F6976AF00943895 /* AppDelegate.swift */,
+				DF13EACC1F6976AF00943895 /* ChatViewController.swift */,
+				DF13EACE1F6976AF00943895 /* Main.storyboard */,
+				DF13EAD11F6976AF00943895 /* Assets.xcassets */,
+				DF13EAD31F6976AF00943895 /* LaunchScreen.storyboard */,
+				DF13EAD61F6976AF00943895 /* Info.plist */,
+			);
+			path = HackGTeenyChatApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF13EAC61F6976AF00943895 /* HackGTeenyChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF13EAD91F6976AF00943895 /* Build configuration list for PBXNativeTarget "HackGTeenyChatApp" */;
+			buildPhases = (
+				DF13EAC31F6976AF00943895 /* Sources */,
+				DF13EAC41F6976AF00943895 /* Frameworks */,
+				DF13EAC51F6976AF00943895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackGTeenyChatApp;
+			productName = HackGTeenyChatApp;
+			productReference = DF13EAC71F6976AF00943895 /* HackGTeenyChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF13EABF1F6976AE00943895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BW;
+				TargetAttributes = {
+					DF13EAC61F6976AF00943895 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SUMH54A6Q9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF13EAC21F6976AE00943895 /* Build configuration list for PBXProject "HackGTeenyChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF13EABE1F6976AE00943895;
+			productRefGroup = DF13EAC81F6976AF00943895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF13EAC61F6976AF00943895 /* HackGTeenyChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF13EAC51F6976AF00943895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF13EAD51F6976AF00943895 /* LaunchScreen.storyboard in Resources */,
+				DF13EAD21F6976AF00943895 /* Assets.xcassets in Resources */,
+				DF13EAD01F6976AF00943895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF13EAC31F6976AF00943895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF13EACD1F6976AF00943895 /* ChatViewController.swift in Sources */,
+				DF13EACB1F6976AF00943895 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF13EACE1F6976AF00943895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF13EACF1F6976AF00943895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF13EAD31F6976AF00943895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF13EAD41F6976AF00943895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF13EAD71F6976AF00943895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF13EAD81F6976AF00943895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF13EADA1F6976AF00943895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUMH54A6Q9;
+				INFOPLIST_FILE = HackGTeenyChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigwangsmash.HackGTeenyChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF13EADB1F6976AF00943895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUMH54A6Q9;
+				INFOPLIST_FILE = HackGTeenyChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigwangsmash.HackGTeenyChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF13EAC21F6976AE00943895 /* Build configuration list for PBXProject "HackGTeenyChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF13EAD71F6976AF00943895 /* Debug */,
+				DF13EAD81F6976AF00943895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF13EAD91F6976AF00943895 /* Build configuration list for PBXNativeTarget "HackGTeenyChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF13EADA1F6976AF00943895 /* Debug */,
+				DF13EADB1F6976AF00943895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF13EABF1F6976AE00943895 /* Project object */;
+}
