@@ -12,57 +12,48 @@ import FirebaseDatabase
 
 class ViewController: UIViewController {
     
-    // reference to the firebase database
     var root: DatabaseReference!
-    
-    // backing messages array for tableView
     var messages:[String] = []
 
-    // connections to UI
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // set the root firebase reference
         root = Database.database().reference()
-
-        // start observing all messages
         observeMessages()
     }
     
     func observeMessages() {
-        //YOUR CODE HERE
-        
+        root.child("chat").observe(.childAdded, with: { snapshot in
+            if let message = snapshot.value as? String, !message.isEmpty {
+                self.messages.append(message)
+                self.tableView.reloadData()
+                let bottomIndex = IndexPath(row: self.messages.count - 1, section: 0)
+                self.tableView.scrollToRow(at: bottomIndex, at: .bottom, animated: true)
+            }
+        })
     }
     
     @IBAction func sendMessage(_ sender: UIButton) {
-        //YOUR CODE HERE
+        if let message = messageTextField.text, !message.isEmpty {
+            let childRef = root.child("chat").childByAutoId()
+            childRef.setValue(message)
+            messageTextField.text = ""
+        }
         
     }
 }
 
-// this is an extension, it allows you to write additional methods and variables to a preexisting class.
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
-    // this delegate method tells the tableview how many rows it has.
-    // in this case, we want the tableview to have the same number of rows as there are messages.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return messages.count
     }
 
-    // this delegate method tells the tableview what content goes into each row.
-    // this is called messages.count number of times, one for each message
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        // dequeue the protoype cell from main.storyboard and assign it to 'cell'
         let cell = tableView.dequeueReusableCell(withIdentifier: "MessageCell", for: indexPath)
-        
-        // set the label to the message indexed from messages
         cell.textLabel?.text = messages[indexPath.row]
-        
-        // give the cell to tableview to display
         return cell
     }
 }

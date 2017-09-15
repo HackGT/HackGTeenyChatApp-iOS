@@ -13,7 +13,7 @@
 		DF13EAD01F6976AF00943895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF13EACE1F6976AF00943895 /* Main.storyboard */; };
 		DF13EAD21F6976AF00943895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF13EAD11F6976AF00943895 /* Assets.xcassets */; };
 		DF13EAD51F6976AF00943895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF13EAD31F6976AF00943895 /* LaunchScreen.storyboard */; };
-		DF13EADD1F697EF700943895 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF13EADC1F697EF700943895 /* GoogleService-Info.plist */; };
+		DF3638D31F6B5BE3008F91F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF3638D21F6B5BE3008F91F4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		DF13EAD11F6976AF00943895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF13EAD41F6976AF00943895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF13EAD61F6976AF00943895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF13EADC1F697EF700943895 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF3638D21F6B5BE3008F91F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FEDC06F27B6359330755F92E /* Pods-HackGTeenyChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackGTeenyChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackGTeenyChatApp/Pods-HackGTeenyChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 				DF13EACA1F6976AF00943895 /* AppDelegate.swift */,
 				DF13EACC1F6976AF00943895 /* ViewController.swift */,
 				DF13EACE1F6976AF00943895 /* Main.storyboard */,
-				DF13EADC1F697EF700943895 /* GoogleService-Info.plist */,
+				DF3638D21F6B5BE3008F91F4 /* GoogleService-Info.plist */,
 				DF13EAD11F6976AF00943895 /* Assets.xcassets */,
 				DF13EAD31F6976AF00943895 /* LaunchScreen.storyboard */,
 				DF13EAD61F6976AF00943895 /* Info.plist */,
@@ -154,10 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3638D31F6B5BE3008F91F4 /* GoogleService-Info.plist in Resources */,
 				DF13EAD51F6976AF00943895 /* LaunchScreen.storyboard in Resources */,
 				DF13EAD21F6976AF00943895 /* Assets.xcassets in Resources */,
 				DF13EAD01F6976AF00943895 /* Main.storyboard in Resources */,
-				DF13EADD1F697EF700943895 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,7 @@
 				DEVELOPMENT_TEAM = SUMH54A6Q9;
 				INFOPLIST_FILE = HackGTeenyChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackgteeny.chatapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgteeny.chat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -363,7 +363,7 @@
 				DEVELOPMENT_TEAM = SUMH54A6Q9;
 				INFOPLIST_FILE = HackGTeenyChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackgteeny.chatapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackgteeny.chat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;

@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>988934150489-ftljoverlj48ogd5t2iu41h736ku9pa9.apps.googleusercontent.com</string>
+	<string>129447511415-ltd7l9v65vbi36ea5c1ldplrvg0ga9et.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.988934150489-ftljoverlj48ogd5t2iu41h736ku9pa9</string>
+	<string>com.googleusercontent.apps.129447511415-ltd7l9v65vbi36ea5c1ldplrvg0ga9et</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAgQo8o5lrG5y7JawOR-L61EaHoZ5V7BRo</string>
+	<string>AIzaSyBpbUdjCbyCS9YsZNrHPL0iPVKKm_sKOzU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>988934150489</string>
+	<string>129447511415</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.hackgteeny.chatapp</string>
+	<string>com.hackgteeny.chat</string>
 	<key>PROJECT_ID</key>
-	<string>hackgteenychatapp</string>
+	<string>chatgt-4c9c7</string>
 	<key>STORAGE_BUCKET</key>
-	<string>hackgteenychatapp.appspot.com</string>
+	<string>chatgt-4c9c7.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:988934150489:ios:3681edb002bca801</string>
+	<string>1:129447511415:ios:a77b2bc4aeeadf46</string>
 	<key>DATABASE_URL</key>
-	<string>https://hackgteenychatapp.firebaseio.com</string>
+	<string>https://chatgt-4c9c7.firebaseio.com</string>
 </dict>
 </plist>
