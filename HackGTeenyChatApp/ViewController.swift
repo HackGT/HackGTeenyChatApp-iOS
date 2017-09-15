@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         })
     }
     
-    @IBAction func sendMessage(_ sender: UIButton) {
+    @IBAction func sendMessage(_ sender: Any) {
         if let message = messageTextField.text, !message.isEmpty {
             let childRef = root.child("chat").childByAutoId()
             childRef.setValue(message)
