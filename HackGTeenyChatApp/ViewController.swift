@@ -12,46 +12,34 @@ import FirebaseDatabase
 
 class ViewController: UIViewController {
     
-    //reference to remote firebase database
+    //nil reference to remote firebase database
     var root: DatabaseReference!
     
     //backing array for tableView
     var messages:[String] = []
 
-    //IBOutlets
+    //connections to UI
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // set the root firebase reference
         root = Database.database().reference()
-        
-        tableView.delegate = self
-        tableView.dataSource = self
-        
-        observeMessages()
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // start observing all messages
+        observeMessages()
     }
     
     func observeMessages() {
-        root.observe(.childAdded, with: { snapshot in
-            if let message = snapshot.value as? String, !message.isEmpty {
-                self.messages.append(message)
-                self.tableView.reloadData()
-            }
-        })
+        //YOUR CODE HERE
+        
     }
     
     @IBAction func sendMessage(_ sender: UIButton) {
-        if let message = messageTextField.text, !message.isEmpty {
-            let childRef = root.childByAutoId()
-            childRef.setValue(message)
-            messageTextField.text = ""
-        }
+        //YOUR CODE HERE
+        
     }
 }
 
